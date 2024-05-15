@@ -21,7 +21,9 @@ A multichain blockchain network was set up using various devices. Node 1 was a l
 
 
 # Setup Instructions
-create a new blockchain : `multichain-util create chain1`
-start the chain : `multichaind chain1 -daemon`
-Configure Chain Parameter : `nano ~/.multichain/chain1/multichain.conf`
-Connect Additional Nodes (Nodes 2, 3, 4) : `multichaind chain1@<Node1_IP>:<port>`
+* create a new blockchain : `multichain-util create chain1`
+* start the chain : `multichaind chain1 -daemon`
+* Configure Chain Parameter : `nano ~/.multichain/chain1/multichain.conf`
+* Connect Additional Nodes (Nodes 2, 3, 4) : `multichaind chain1@<Node1_IP>:<port>`
+* Verify Connections : `multichain-cli chain1 getinfo`
+* Enable Permissions for Secure Network Governance : `multichain-cli chain1 grant <address> connect,send,receive`
