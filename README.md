@@ -9,21 +9,32 @@ A multichain blockchain network was set up using various devices. Node 1 was a l
 ## Nodes and Specifications
 - Node 1: Laptop with i3 processor running Bodhi Linux
 - Node 2: Raspberry Pi 4 running Ubuntu Unity
-- Node 3: Laptop with i7 processor running Bodhi Linux (patched)
+- Node 3: Laptop with i7 processor running Bodhi Linux
 - Node 4: Raspberry Pi 3B+ running Ubuntu Unity
 
 ## Software
 - Bodhi Linux
 - Ubuntu Unity
-- Git
-- Curl
 - Multichain
 
 
-# Setup Instructions
+## Setup Instructions
 * create a new blockchain : `multichain-util create chain1`
 * start the chain : `multichaind chain1 -daemon`
 * Configure Chain Parameter : `nano ~/.multichain/chain1/multichain.conf`
 * Connect Additional Nodes (Nodes 2, 3, 4) : `multichaind chain1@<Node1_IP>:<port>`
 * Verify Connections : `multichain-cli chain1 getinfo`
 * Enable Permissions for Secure Network Governance : `multichain-cli chain1 grant <address> connect,send,receive`
+
+# Attack on P2P Network
+
+* DOS - A DoS attack overwhelms a network or service with excessive traffic, causing it to slow down or become unavailable. This prevents legitimate users from accessing the service.
+* DDOS - A DDoS attack uses multiple compromised devices to flood a network or service with traffic, making it hard to stop. This results in severe disruptions and unavailability of the service.
+* Eclipse Attack - An eclipse attack isolates a blockchain node by surrounding it with malicious nodes.
+* Livness Attack - A liveness attack disrupts a blockchain network's ability to confirm transactions by preventing nodes from communicating effectively. This leads to delays and potential downtime.
+* Transaction Flooding - Transaction flooding involves sending a large number of transactions to a blockchain network, causing congestion. This slows down processing time.
+* Time Jacking - Time jacking manipulates a node's network time to disrupt transaction ordering and block validation. This can lead to inconsistent transaction processing and potential double-spending.
+* Spatial Partitioning Attack - A spatial partitioning attack creates divisions within a blockchain network, isolating nodes and disrupting communication. 
+
+# Implementation of Attack
+
