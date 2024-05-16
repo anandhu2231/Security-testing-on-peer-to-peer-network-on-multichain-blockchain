@@ -50,15 +50,20 @@ A multichain blockchain network was set up using various devices. Node 1 was a l
 
 * Eclipse Attack
   - We need to change the permission from
-    anyone-can-connect   :false
-    anyone-can-send	     :false
-    anyone-can-receive	 :false
-    anyone-can-create    :false
-    anyone-can-activate	 :false
-    anyone-can-admin	   :false 
+    * anyone-can-connect  	 :false
+    * anyone-can-send	       :false
+    * anyone-can-receive	   :false
+    * anyone-can-create    	 :false
+    * anyone-can-activate	   :false
+    * anyone-can-admin	 	   :false 
 
    to the below:
-
+    * anyone-can-connect  	 :true
+    * anyone-can-send	       :true
+    * anyone-can-receive	   :true
+    * anyone-can-create    	 :true
+    * anyone-can-activate	   :true
+    * anyone-can-admin	 	   :true
 
 
 * Livness Attack
