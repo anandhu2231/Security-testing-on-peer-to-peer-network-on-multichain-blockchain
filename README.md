@@ -45,6 +45,7 @@ A multichain blockchain network was set up using various devices. Node 1 was a l
 
 
 * DDOS
+  A DDoS attack occurs when two zombie nodes, controlled by a single main node, overwhelm the network with excessive requests, disrupting normal operations and potentially compromising security.
 
 * Eclipse Attack
 
