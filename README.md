@@ -49,7 +49,7 @@ A multichain blockchain network was set up using various devices. Node 1 was a l
     * The same code we used on DoS is used here with running in other nodes
 
 * Eclipse Attack
-  - We need to change the permission from
+  We need to change the permission from
     * anyone-can-connect  	 :false
     * anyone-can-send	       :false
     * anyone-can-receive	   :false
