@@ -50,11 +50,15 @@ A multichain blockchain network was set up using various devices. Node 1 was a l
 
 * Eclipse Attack
   - We need to change the permission from
-![crop main](https://github.com/anandhu2231/Security-testing-on-peer-to-peer-network-on-multichain-blockchain/assets/40719852/6b4980ed-02cd-4be5-a174-3ff699c9ba82)
+    anyone-can-connect   :false
+    anyone-can-send	     :false
+    anyone-can-receive	 :false
+    anyone-can-create    :false
+    anyone-can-activate	 :false
+    anyone-can-admin	   :false 
 
-to the below:
+   to the below:
 
-![change inorder](https://github.com/anandhu2231/Security-testing-on-peer-to-peer-network-on-multichain-blockchain/assets/40719852/7c67339d-05b8-45b4-a764-15aabde1ab07)
 
 
 * Livness Attack
