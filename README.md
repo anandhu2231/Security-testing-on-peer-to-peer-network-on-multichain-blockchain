@@ -45,9 +45,17 @@ A multichain blockchain network was set up using various devices. Node 1 was a l
 
 
 * DDOS
-  A DDoS attack occurs when two zombie nodes, controlled by a single main node, overwhelm the network with excessive requests, disrupting normal operations and potentially compromising security.
+  - A DDoS attack occurs when two zombie nodes, controlled by a single main node, overwhelm the network with excessive requests, disrupting normal operations and potentially compromising security.
+    * The same code we used on DoS is used here with running in other nodes
 
 * Eclipse Attack
+  - We need to change the permission from
+![crop main](https://github.com/anandhu2231/Security-testing-on-peer-to-peer-network-on-multichain-blockchain/assets/40719852/6b4980ed-02cd-4be5-a174-3ff699c9ba82)
+
+to the below:
+
+![change inorder](https://github.com/anandhu2231/Security-testing-on-peer-to-peer-network-on-multichain-blockchain/assets/40719852/7c67339d-05b8-45b4-a764-15aabde1ab07)
+
 
 * Livness Attack
 
