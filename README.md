@@ -69,16 +69,10 @@ A multichain blockchain network was set up using various devices. Node 1 was a l
 * Livness Attack :
  we aim to deactivate a node by sending malicious shell code that blocks the port, rendering the node non-operational if the code is executed. This disrupts the node's ability to participate in network activities and compromises the overall system's functionality.
 
-* Transaction Flooding
- 
-Transaction flooding as an attack involves overwhelming the blockchain network with a massive number of transactions, aiming to degrade its performance and disrupt normal operations. The code for sending transaction is above
+* Transaction Flooding: Transaction flooding as an attack involves overwhelming the blockchain network with a massive number of transactions, aiming to degrade its performance and disrupt normal operations. The code for sending transaction is above
 
-* Time Jacking
+* Time Jacking: Time jacking involves manipulating the system time on each node to create discrepancies and then initiating two transactions to check the timestamp logs. This attack tests whether inconsistent times across nodes can be exploited to gain an advantage or cause errors. However, modern blockchain protocols have safeguards against such attacks, making time jacking ineffective.
 
-Time jacking involves manipulating the system time on each node to create discrepancies and then initiating two transactions to check the timestamp logs. This attack tests whether inconsistent times across nodes can be exploited to gain an advantage or cause errors. However, modern blockchain protocols have safeguards against such attacks, making time jacking ineffective.
-
-* Spatial Partitioning Attack 
-
-A Spatial Partitioning Attack, which attempts to divide the network into isolated segments, is not possible in MultiChain because only one node can be isolated at a time. Because of this limitation, partitioning the entire network is impossible, making the attack ineffective.
+* Spatial Partitioning Attack: A Spatial Partitioning Attack, which attempts to divide the network into isolated segments, is not possible in MultiChain because only one node can be isolated at a time. Because of this limitation, partitioning the entire network is impossible, making the attack ineffective.
 
 
