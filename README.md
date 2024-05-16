@@ -38,3 +38,18 @@ A multichain blockchain network was set up using various devices. Node 1 was a l
 
 # Implementation of Attack
 
+* DOS
+  - TCP Flooding : A TCP SYN flood attack overwhelms a server with numerous SYN requests, causing resource exhaustion, slowdowns, and potential server crashes due to high CPU and memory usage.
+  - DNS Flooding : A DNS flood attack overwhelms a DNS server, causing delays and failures in domain name resolution, causing widespread disruptions and difficulty accessing websites and online services.
+  Code : 
+* DDOS
+
+* Eclipse Attack
+
+* Livness Attack
+
+* Transaction Flooding
+
+* Time Jacking
+
+* Spatial Partitioning Attack 
